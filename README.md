@@ -6,7 +6,6 @@ Proyecto académico sobre algoritmos de búsqueda aplicados a arreglos unidimens
 
 - `unidimensional/busqueda_secuencial.php`: búsqueda elemento por elemento.
 - `unidimensional/busqueda_binaria.php`: búsqueda por mitades en un arreglo ordenado.
-- `unidimensional/busqueda_salto.php`: búsqueda mediante saltos.
 - `bidimensional/busqueda_matriz.php`: búsqueda recorriendo filas y columnas.
 - `README.md`: instrucciones del proyecto.
 
@@ -25,7 +24,6 @@ Proyecto académico sobre algoritmos de búsqueda aplicados a arreglos unidimens
 ```bash
 php unidimensional/busqueda_secuencial.php
 php unidimensional/busqueda_binaria.php
-php unidimensional/busqueda_salto.php
 php bidimensional/busqueda_matriz.php
 ```
 
@@ -44,9 +42,6 @@ Revisa los elementos desde el primero hasta encontrar el valor buscado. No neces
 
 ### Búsqueda binaria
 Busca en la mitad del arreglo y elimina la mitad que no puede contener el elemento. Requiere que el arreglo esté ordenado.
-
-### Búsqueda por salto
-Avanza por bloques y, cuando encuentra el bloque donde podría estar el elemento, realiza una búsqueda secuencial dentro de ese bloque. Requiere un arreglo ordenado.
 
 ### Búsqueda bidimensional
 Recorre una matriz mediante dos posiciones: fila y columna. En este proyecto se usa búsqueda secuencial.
