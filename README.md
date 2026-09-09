@@ -4,9 +4,9 @@ Proyecto académico sobre algoritmos de búsqueda aplicados a arreglos unidimens
 
 ## Contenido
 
-- `unidimensional/busqueda_secuencial.php`: búsqueda elemento por elemento.
+- `unidimensional/busqueda_secuencial.php`: búsqueda elemento por elemento. 
 - `unidimensional/busqueda_binaria.php`: búsqueda por mitades en un arreglo ordenado.
-- `bidimensional/busqueda_matriz.php`: búsqueda recorriendo filas y columnas.
+- `bidimensional/busqueda_matriz.php`: búsqueda recorriendo filas y columnas. http://localhost/algoritmos_busqueda/bidimensional/busqueda_matriz.php
 - `README.md`: instrucciones del proyecto.
 
 ## Requisitos
